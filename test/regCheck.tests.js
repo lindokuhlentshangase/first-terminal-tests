@@ -1,14 +1,11 @@
-describe('regCheck', function() {
-    it('should return true if the names end with the given string', function() {
-      assert.isTrue(regCheck('ABC123GP', 'GP'));
-    });
+describe("testing my regCheck function", function(){
+  it("it should return true if the registration number start with CA 123 908 is from Cape Town", function(){
+      assert.equal(isFromCapeTown('CA 123 908'), true);
+
+  });
   
-    it('should return false if the names do not end with the given string', function() {
-      assert.isFalse(regCheck('ABC123GP', 'CY'));
-    });
-  
-    it('should return true if the names end with an empty string', function() {
-      assert.isTrue(regCheck('ABC123GP', ''));
-    });
+  it("it should return false if the registration number start with CJ 123 908 is not from Cape Town", function(){
+      assert.equal(isFromCapeTown('CJ 123 908'), false);
+  });
 
 });

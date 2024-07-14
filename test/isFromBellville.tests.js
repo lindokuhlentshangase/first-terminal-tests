@@ -8,7 +8,7 @@ describe('isFromBellville', function() {
     });
   
     it('should return false for an empty string', function() {
-      assert.isFalse(isFromBellville(''));
+      assert.equal(isFromBellville('CJ 123'), false);
     });
   
     

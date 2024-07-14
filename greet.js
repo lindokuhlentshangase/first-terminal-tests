@@ -1,4 +1,5 @@
 function greet(name) {
-    return 'Hello, Zano ' //+ name;
-  };
+    var message = 'Hello, ' + name;
+    return message;
+  }
   

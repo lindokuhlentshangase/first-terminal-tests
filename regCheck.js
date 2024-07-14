@@ -1,3 +1,4 @@
-function regCheck(names,end) {
-    return names.endsWith(end)
-    }
+function isFromCapeTown(item){
+    return item.startsWith("CA") || item.endsWith("CJ")
+  }
+  console.log(isFromCapeTown("CA"));

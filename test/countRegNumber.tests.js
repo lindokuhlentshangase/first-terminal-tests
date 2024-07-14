@@ -1,13 +1,12 @@
-describe('countRegNumber', function() {
-    it('should return the correct number of registrations for a given string', function() {
-      assert.strictEqual(countRegNumber('CA 123, CJ 456, CY 789'), 3);
-    });
-  
-    it('should return 1 for a single registration', function() {
-      assert.strictEqual(countRegNumber('CA 123'), 1);
-    });
-  
-    it('should return 0 for an empty string', function() {
-      assert.strictEqual(countRegNumber(''), 1); // Should be 1 as split(',') on an empty string returns ['']
-    });
+describe ("testing isFromGauteng function", function(){
+  it("it should return true if the registration number ends with GP is from Gauteng", function(){
+      
+      assert.equal(isFromGauteng('DR 45 LR GP'), true); 
+
+  });
+  it("it should return false if the registration number CJ 123 908 is for Gauteng", function(){
+      
+      assert.equal(isFromGauteng('CJ 123 908'), false);
+  });
+
 });
