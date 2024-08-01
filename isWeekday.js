@@ -1,4 +1,6 @@
-function isWeekday(week) {
-    var weekDays = ['Monday', 'Tuesday', 'Wednesday','Thursday', 'Friday',]
-    return weekDays.includes(week); 
-    }
+export default function isWeekday(day) {
+    const weekendDays = ['Saturday', 'Sunday'];
+    return !weekendDays.includes(day);
+  }
+  
+  console.log(isWeekday('Sunday'));

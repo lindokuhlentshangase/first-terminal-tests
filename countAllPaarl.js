@@ -1,4 +1,4 @@
-function countAllPaarl(registrationNumbers) {
+export default function countAllPaarl(registrationNumbers) {
     var registrationNumberList = registrationNumbers.split(', ');
     
     var count = 0;

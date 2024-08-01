@@ -1,3 +1,5 @@
+import assert from "assert";
+import findItemsOver20 from "../findItemsOver20.js";
 describe('findItemsOver20', function() {
     it('should return items with qty > 20', function() {
         const items = [

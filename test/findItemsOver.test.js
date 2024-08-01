@@ -1,3 +1,5 @@
+import assert from "assert";
+import findItemsOver from "../findItemsOver.js";
 describe('findItemsOver', function() {
     it('should return items with qty > specified number', function() {
         const items = [

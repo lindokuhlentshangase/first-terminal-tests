@@ -1,4 +1,4 @@
-function findItemsOver(items, overNumber){
+export default function findItemsOver(items, overNumber){
     
     let overNum = []
     for(var i = 0; i< items.length; i++){

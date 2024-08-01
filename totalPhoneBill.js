@@ -1,4 +1,4 @@
-function totalPhoneBill(data) {
+export default function totalPhoneBill(data) {
     const calls = data.split(',').filter(item => item.trim() === 'call').length;
     const sms = data.split(',').filter(item => item.trim() === 'sms').length;
     

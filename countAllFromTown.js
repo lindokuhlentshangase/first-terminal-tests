@@ -1,4 +1,4 @@
-function countAllFromTown(regNumbers, town) {
+export default function countAllFromTown(regNumbers, town) {
     const regNumArray = regNumbers.split(',');
     let count = 0;
     

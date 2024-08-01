@@ -1,3 +1,5 @@
+import assert from "assert";
+import isFromGauteng from "../countRegNumber.js";
 describe ("testing isFromGauteng function", function(){
   it("it should return true if the registration number ends with GP is from Gauteng", function(){
       

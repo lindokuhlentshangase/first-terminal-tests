@@ -1,3 +1,6 @@
+
+import assert from "assert";
+import yearsAgo from "../yearsAgo.js";
 describe('yearsAgo', function() {
     it('should return the correct number of years ago for 1990', function() {
       const currentYear = new Date().getFullYear();

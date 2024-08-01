@@ -1,4 +1,4 @@
-function mostProfitableDepartment(salesData){
+export default function mostProfitableDepartment(salesData){
      
     let mstProObject = {}
     let highestDep = 0; 

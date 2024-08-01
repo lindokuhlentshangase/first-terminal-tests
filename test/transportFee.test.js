@@ -1,3 +1,5 @@
+import assert from "assert";
+import transportFee from "../transportFee.js";
 describe('transportFee', function() {
     it('should return R20 for morning shift', function() {
       assert.strictEqual(transportFee('morning'), 'R20');

@@ -1,4 +1,4 @@
-function findItemsOver20(items){
+export default function findItemsOver20(items){
      
     let overTwenty = []
     for(var i = 0; i< items.length; i++){

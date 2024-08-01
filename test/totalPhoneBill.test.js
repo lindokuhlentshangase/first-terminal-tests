@@ -1,3 +1,5 @@
+import assert from "assert";
+import totalPhoneBill from "../totalPhoneBill.js";
 describe('totalPhoneBill', function() {
     it('should return R0.00 for an empty string', function() {
       assert.strictEqual(totalPhoneBill(''), 'R0.00');

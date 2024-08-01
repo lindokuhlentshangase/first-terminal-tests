@@ -1,4 +1,4 @@
-function fromWhere(registrationNumber) {
+export default function fromWhere(registrationNumber) {
     // Extract the first two characters (prefix) from the registration number
     var prefix = registrationNumber.substring(0, 2);
 

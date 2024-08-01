@@ -1,3 +1,5 @@
+import assert from "assert";
+import fromWhere from "../fromWhere.js";
 describe('fromWhere', function() {
     it('should return Bellville for registration number starting with CY', function() {
       assert.strictEqual(fromWhere('CY123456'), 'Bellville');
